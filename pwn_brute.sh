@@ -6,7 +6,7 @@
 set -euo pipefail
 
 echo "Starting FULL AUTOMATED SETUP + BRUTE FORCE (Debian 12 Bookworm)"
-echo "Target: 160.153.63.10 : 22 (root)"
+echo "Target: targetgoeshere : portgoeshere (root)"
 echo "This will take some time to download ~140MB rockyou.txt.gz..."
 echo ""
 
@@ -76,8 +76,8 @@ Credit to https://github.com/Gallopsled/pwntools/ for pwntools code
 print(banner)
 
 # ================= CONFIG =================
-TARGET_IP   = "160.153.63.10"
-TARGET_PORT = 22
+TARGET_IP   = "targetip"
+TARGET_PORT = targetport
 USERNAME    = "root"
 
 ROCKYOU_PATH = os.path.expanduser("~/rockyou.txt")
